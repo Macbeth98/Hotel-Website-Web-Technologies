@@ -1,0 +1,254 @@
+/* Custom Admin Toolbar
+.................................*/
+body.admin-bar {
+	padding-top:17px!important;
+}
+
+body.admin-bar.wp-admin {
+	padding-top:0!important;
+}
+
+body.admin-bar #wpcontent,body.admin-bar #adminmenu {
+	padding-top:17px!important;
+}
+
+#wpadminbar,#wpadminbar .quicklinks a,#wpadminbar .quicklinks .ab-empty-item,#wpadminbar .shortlink-input {
+	height:45px!important;
+}
+
+#wpadminbar .quicklinks a {
+	font-size:16px!important;
+	line-height:45px!important;
+	padding:0 20px!important;
+}
+
+#wpadminbar .quicklinks li li a {
+	font-size:13px!important;
+	line-height:28px!important;
+	height:auto!important;
+}
+
+#wpadminbar li {
+	float:right!important;
+}
+
+#wpadminbar li#wp-admin-bar-my-site-name {
+	float:left!important;
+	border:none!important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-my-site-name a {
+	font-family:Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	font-size:20px!important;
+	line-height:43px!important;
+	padding-left:12px!important;
+	text-shadow:1px 1px 1px #000!important;
+	border:none!important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-my-site-name a:hover {
+	background-image:none!important;
+	color:#cccccc!important;
+}
+
+#wpadminbar .quicklinks > ul > li {
+	border-right:none!important;
+	border-left:1px solid #555555!important;
+}
+
+#wpadminbar .quicklinks > ul > li > a,#wpadminbar .quicklinks > ul > li > .ab-empty-item {
+	border-right:none!important;
+	border-left:1px solid #333333!important;
+}
+
+#wpadminbar li#wp-admin-bar-visit-my-website {
+	float:left!important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-visit-my-website a {
+	padding-right:60px!important;
+	background:url(../images/visit-my-site-arrow.png) top left no-repeat!important;
+	background-position:145px 15px!important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-visit-my-website a:hover {
+	background-position:145px -39px!important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-re-help.hover li a {
+	color:#21759B!important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-re-help.hover a,#wpadminbar .quicklinks li#wp-admin-bar-re-help a:hover,#wpadminbar .quicklinks li#wp-admin-bar-re-help.hover li a:hover {
+	color:#333333!important;
+}
+
+#screen-options-link-wrap,#contextual-help-link-wrap {
+	opacity:.4!important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-re-help a,
+#wpadminbar .quicklinks li#wp-admin-bar-re-help {
+	border-left:none!important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-re-help a {
+	background: url(../images/icon-help.png) bottom left no-repeat #3EA3C1;
+background-position: 7px 7px !important;
+	color: #fff !important;
+	height: 35px !important;
+	line-height: 37px !important;
+	margin: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding-left: 45px !important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-re-help a:hover,
+#wpadminbar .quicklinks li#wp-admin-bar-re-help.hover a {
+	background-image: none !important;
+	background: url(../images/icon-help.png) bottom left no-repeat  #46c6ed !important;
+	background-position: 7px 7px !important;
+	color: #fff !important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-re-help.hover li a {
+	background: #fff !important;
+	margin: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	padding-left: 17px !important;
+}
+
+#wpadminbar .quicklinks li#wp-admin-bar-re-help li a:hover {
+	background: #eaf2fa !important;
+}
+
+#wpadminbar .quicklinks ul li#wp-admin-bar-delete-cache {
+	display: none;
+}
+
+
+/* Setup Checklist Dropdown
+.................................*/
+
+#wpadminbar .quicklinks #wp-admin-bar-re-setup-checklist a.ab-item {
+	background:url(../images/icon-checklist.png) top left no-repeat !important;
+	background-position: 10px 13px !important;
+	padding-left: 35px !important;
+}
+
+#wpadminbar .quicklinks #wp-admin-bar-re-setup-checklist a.ab-item:hover,
+#wpadminbar .quicklinks #wp-admin-bar-re-setup-checklist a.ab-item.hover {
+	background:url(../images/icon-checklist.png) top left no-repeat #fff !important;
+	background-position: 10px -21px !important;
+}
+
+#setup-checklist-dropdown {
+	max-width: none;
+	width: 330px;
+}
+
+#setup-checklist-dropdown li:hover {
+	background: none !important;
+}
+
+#wpadminbar .quicklinks li #setup-checklist-dropdown li a {
+	line-height: 1em !important;
+	text-shadow: none;
+}
+
+#wpadminbar .quicklinks li #setup-checklist-dropdown ul {
+	padding: 10px 0 0 0;
+}
+
+#setup-checklist-dropdown li .number {
+	float: left;
+	width: 38px;
+	text-align: center;
+	line-height: 1em;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 0 0 0;
+	height: 28px;
+	color: #ffffff;
+	background: #666;
+	margin: 7px 8px 7px 8px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#setup-checklist-dropdown .links {
+	float: left;
+	width: 274px;
+	line-height: .9em !important;
+	margin: 7px 0;
+}
+
+#wpadminbar .quicklinks li #setup-checklist-dropdown li a.step-go {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 18px !important;
+	text-decoration: none;
+	margin: 0 0 5px;
+	padding: 0 !important;
+	text-shadow: none;
+}
+
+#wpadminbar .quicklinks li #setup-checklist-dropdown li a.watch-video,
+#wpadminbar .quicklinks li #setup-checklist-dropdown li a.view-docs {
+	display: inline-block;
+	background: url(../images/icon-play-video.png) top left no-repeat;
+	padding: 0 0 0 15px !important;
+	opacity: .7;
+	color: #666;
+	line-height: 1em;
+	text-decoration: none;
+	float: left;
+	margin: 0 8px 0 0;
+	font-weight: normal;
+	text-shadow: none;
+}
+
+#wpadminbar .quicklinks li #setup-checklist-dropdown li a.view-docs {
+	background: url(../images/icon-documentation.png) top left no-repeat;
+}
+
+#wpadminbar .quicklinks li #setup-checklist-dropdown li a.watch-video:hover,
+#wpadminbar .quicklinks li #setup-checklist-dropdown li a.view-docs:hover {
+	opacity: 1;
+}
+
+#wpadminbar .quicklinks li #setup-checklist-dropdown li a.see-more {
+	display: block;
+	width: 315px;
+	background: #999999;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1em;
+	padding: 10px 0 !important;
+	margin: 5px 10px 7px 0 !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	opacity: .7;
+	font-size: 18px !important;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
